@@ -1,0 +1,359 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+  }
+  
+  h1, h2 {
+    text-align: center;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+    color: #4caf50;
+  }
+  
+  .card {
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px 0;
+    transition: transform 0.2s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.02);
+  }
+  
+  /* Feature Card Colors */
+  .bg-pastel-yellow {
+    background-color: #fffbe6;
+  }
+  
+  .bg-pastel-blue {
+    background-color: #e6f7ff;
+  }
+  
+  .bg-pastel-green {
+    background-color: #e6ffe6;
+  }
+  
+  .bg-pastel-pink {
+    background-color: #ffe6f7;
+  }
+  
+  .bg-pastel-purple {
+    background-color: #f3e6ff;
+  }
+  
+  .bg-pastel-teal {
+    background-color: #e6fffb;
+  }
+  
+  .bg-pastel-orange {
+    background-color: #fff7e6;
+  }
+  
+  .bg-pastel-gray {
+    background-color: #f2f2f2;
+  }
+  
+  /* Inputs and Buttons */
+  input, button {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  /* Specific Feature Styles */
+  .mood-tracker button {
+    width: auto;
+    font-size: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .mood-tracker button:hover {
+    transform: scale(1.2);
+  }
+  
+  .relaxing-sounds .flex {
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .break-reminders {
+    text-align: center;
+  }
+  
+  .daily-challenge, .chat-with-ai, .stress-relief-games, .help-section {
+    text-align: left;
+  }
+  
+  .list-disc {
+    margin-left: 20px;
+  }
+  /* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+  }
+  
+  h1, h2 {
+    text-align: center;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+    color: #4caf50;
+  }
+  
+  .card {
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px 0;
+    transition: transform 0.2s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.02);
+  }
+  
+  /* Feature Card Colors */
+  .bg-pastel-yellow {
+    background-color: #fffbe6;
+  }
+  
+  .bg-pastel-blue {
+    background-color: #e6f7ff;
+  }
+  
+  .bg-pastel-green {
+    background-color: #e6ffe6;
+  }
+  
+  .bg-pastel-pink {
+    background-color: #ffe6f7;
+  }
+  
+  .bg-pastel-purple {
+    background-color: #f3e6ff;
+  }
+  
+  .bg-pastel-teal {
+    background-color: #e6fffb;
+  }
+  
+  .bg-pastel-orange {
+    background-color: #fff7e6;
+  }
+  
+  .bg-pastel-gray {
+    background-color: #f2f2f2;
+  }
+  
+  /* Inputs and Buttons */
+  input, button {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  /* Specific Feature Styles */
+  .mood-tracker button {
+    width: auto;
+    font-size: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .mood-tracker button:hover {
+    transform: scale(1.2);
+  }
+  
+  .relaxing-sounds .flex {
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .break-reminders {
+    text-align: center;
+  }
+  
+  .daily-challenge, .chat-with-ai, .stress-relief-games, .help-section {
+    text-align: left;
+  }
+  
+  .list-disc {
+    margin-left: 20px;
+  }
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+  }
+  
+  h1, h2 {
+    text-align: center;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+    color: #4caf50;
+  }
+  
+  .card {
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px 0;
+    transition: transform 0.2s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.02);
+  }
+  
+  /* Feature Card Colors */
+  .bg-pastel-yellow {
+    background-color: #fffbe6;
+  }
+  
+  .bg-pastel-blue {
+    background-color: #e6f7ff;
+  }
+  
+  .bg-pastel-green {
+    background-color: #e6ffe6;
+  }
+  
+  .bg-pastel-pink {
+    background-color: #ffe6f7;
+  }
+  
+  .bg-pastel-purple {
+    background-color: #f3e6ff;
+  }
+  
+  .bg-pastel-teal {
+    background-color: #e6fffb;
+  }
+  
+  .bg-pastel-orange {
+    background-color: #fff7e6;
+  }
+  
+  .bg-pastel-gray {
+    background-color: #f2f2f2;
+  }
+  
+  /* Inputs and Buttons */
+  input, button {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  /* Specific Feature Styles */
+  .mood-tracker button {
+    width: auto;
+    font-size: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .mood-tracker button:hover {
+    transform: scale(1.2);
+  }
+  
+  .relaxing-sounds .flex {
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .break-reminders {
+    text-align: center;
+  }
+  
+  .daily-challenge, .chat-with-ai, .stress-relief-games, .help-section {
+    text-align: left;
+  }
+  
+  .list-disc {
+    margin-left: 20px;
+  }
+
+  
