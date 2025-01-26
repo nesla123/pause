@@ -10,29 +10,24 @@
 - Member 2: hidha nazarin - vidya academy of science and technology
 
 ### Hosted Project Link
-https://github.com/nesla123/pause
+https://nesla123.github.io/pause/
 
 ### Project Description
-
+This website offers practical tools and resources to help users manage stress and maintain a healthy mind. It provides relaxation exercises, mindfulness tips, and helpful content to promote mental well-being and emotional balance.
 
 ### The Problem statement
-[What ridiculous problem are you solving?]
+An accessible online platform offering tools and resources to help individuals manage stress and improve mental well-being.
 
 ### The Solution
-[How are you solving it? Keep it fun!]
+Create a user-friendly website that provides stress-relief tools, including guided meditations, breathing exercises, calming visuals, and personalized mental wellness tips, accessible anytime and tailored to individual needs.
 
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
+- html,css,javascript
+- vanilla javascript
+- vscode
 
-For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
 
 ### Implementation
 For Software:
@@ -46,8 +41,6 @@ For Software:
 For Software:
 
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
 
 ![Screenshot2](Add screenshot 2 here with proper name)
 *Add caption explaining what this shows*
