@@ -36,9 +36,9 @@ For Software:
 For Software:
 
 # Screenshots (Add at least 3)
-<img width = "1289 alt = "readme-banner" src = "11.png">
-<img width = "1289 alt = "readme-banner" src = "22.png">
-<img width = "1289 alt = "readme-banner" src = "33.png">
+<img width = "1289" alt = "readme-banner" src = "11.png">
+<img width = "1289" alt = "readme-banner" src = "22.png">
+<img width = "1289" alt = "readme-banner" src = "33.png">
 
 
 # Diagrams
