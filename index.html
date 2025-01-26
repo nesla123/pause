@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stress Relief & Health Management</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    .card {
+      background: #fff;
+      margin-bottom: 20px;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    .card h2 {
+      margin-bottom: 10px;
+    }
+    .card p, .card ul {
+      margin: 0;
+    }
+    .emoji-button {
+      font-size: 1.5rem;
+      margin-right: 10px;
+      cursor: pointer;
+    }
+    .break-input {
+      margin-top: 10px;
+    }
+    .btn {
+      padding: 10px 15px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .btn:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1 style="text-align: center;">Stress Relief & Health Management</h1>
+
+    <!-- Daily Affirmation -->
+    <div class="card">
+      <h2>Daily Affirmation</h2>
+      <p>Believe in yourself and all that you are.</p>
+    </div>
+
+    <!-- Mood Tracker -->
+    <div class="card">
+      <h2>Mood Tracker</h2>
+      <p>Select your mood:</p>
+      <div>
+        <span class="emoji-button">😀</span>
+        <span class="emoji-button">😐</span>
+        <span class="emoji-button">😞</span>
+      </div>
+    </div>
+
+    <!-- Relaxing Sounds -->
+    <div class="card">
+      <h2>Relaxing Sounds</h2>
+      <p>Click to play:</p>
+      <button class="btn" onclick="document.getElementById('rainSound').play()">Rain</button>
+      <button class="btn" onclick="document.getElementById('oceanSound').play()">Ocean Waves</button>
+      <button class="btn" onclick="document.getElementById('birdsSound').play()">Birds</button>
+      <audio id="rainSound" src="sounds/rain.mp3"></audio>
+      <audio id="oceanSound" src="sounds/ocean.mp3"></audio>
+      <audio id="birdsSound" src="sounds/birds.mp3"></audio>
+    </div>
+
+    <!-- Break Reminders -->
+    <div class="card">
+      <h2>Break Reminders</h2>
+      <label for="breakTime">Set break time (minutes):</label>
+      <input id="breakTime" type="number" class="break-input">
+      <button class="btn" onclick="alert('Break reminder set!')">Set Reminder</button>
+    </div>
+
+    <!-- Daily Challenge -->
+    <div class="card">
+      <h2>Daily Challenge</h2>
+      <p>Do 10 deep breaths for relaxation.</p>
+    </div>
+
+    <!-- Chatbot -->
+    <div class="card">
+      <h2>Chat with AI</h2>
+      <input id="chatInput" type="text" placeholder="Type your message..." style="width: 100%; padding: 10px;">
+      <button class="btn" onclick="alert('AI: Keep going, you’re doing great!')">Send</button>
+    </div>
+
+    <!-- Stress Relief Games -->
+    <div class="card">
+      <h2>Stress Relief Games</h2>
+      <p>Explore fun and simple games to relax!</p>
+      <button class="btn" onclick="alert('Game functionality coming soon!')">Play Now</button>
+    </div>
+
+    <!-- Help -->
+    <div class="card">
+      <h2>Help</h2>
+      <p>Contact a psychologist for assistance:</p>
+      <ul>
+        <li>Dr. Jane Doe: (123) 456-7890</li>
+        <li>Dr. John Smith: (987) 654-3210</li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>
