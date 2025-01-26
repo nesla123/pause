@@ -1,20 +1,19 @@
-# [Project Name] 🎯
+# Pause 🎯
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: Nyla Hidha Nesla
 
 
 ### Team Members
-- Member 1: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Member 1: fathima nesla - vidya academy of science and technology
+- Member 2: hidha nazarin - vidya academy of science and technology
 
 ### Hosted Project Link
-[mention your project hosted project link here]
+https://github.com/nesla123/pause
 
 ### Project Description
-[2-3 lines about what your project does]
+
 
 ### The Problem statement
 [What ridiculous problem are you solving?]
